@@ -1,0 +1,48 @@
+.contenedor-flexible {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+header {
+    text-align: left;
+}
+body {
+    background-color: #52713b;
+}
+header h1 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contenedor-flexible {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+}
+
+nav {
+    background-color: #c0392b;
+    padding: 20px;
+    width: 200px;
+}
+.contenido {
+    background-color: #d9c6a3;
+    flex: 2;
+}
+aside {
+    background-color: #9d895d;
+    flex: 1;
+    padding: 20px;
+}
+
+@media (max-width: 800px) {
+    .contenedor-flexible {
+        flex-direction: column;
+    }   
+    nav {
+    background-color: yellow;
+    width: 100%;
+    }   
+}
