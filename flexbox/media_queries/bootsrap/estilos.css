@@ -1,0 +1,9 @@
+.bg-body-tertiary {
+    background-color: rgb(215, 242, 169) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(100, 11, 11);
+    color: white;
+    font-weight: bold;
+}

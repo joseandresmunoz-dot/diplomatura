@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">IMAGES</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre Nosotros</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Nuestros Servicios
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar"/>
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Fin Navbar -->
+
+</body>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <!-- Carrusel -->
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagen1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Primera Imagen</h5>
+        <p>Cielo Nocturno</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imagen2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Segunda Imagen</h5>
+        <p>Imagen digital</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imagen3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Tercera Imagen</h5>
+        <p>Paisaje de montañas</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Antes</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+<!-- Fin Carrusel -->
+            </div>
+            <!-- Acordeon -->
+            <div class="col">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Primera Imagen
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <strong>Esta imagen </strong>muestra un cielo nocturno dramático y místico. Una luna llena brillante domina la parte superior derecha, irradiando una luz blanca y azulada que ilumina las nubes circundantes. El cielo está lleno de estrellas centelleantes dispersas por toda la escena. Las nubes, en tonos de azul oscuro y gris, crean una atmósfera etérea y misteriosa, con algunas partes iluminadas por la luz lunar mientras otras permanecen en sombras profundas. La composición evoca una sensación de tranquilidad y asombro ante la belleza del cielo nocturno.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Segunda Imagen
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        Esta imagen es una ilustración digital con una estética vibrante, reminiscente del estilo anime o "lo-fi". Muestra un paisaje costero fantástico donde una casa de estilo tradicional japonés se asienta sobre un acantilado rocoso, iluminada por dentro con una luz roja cálida y acogedora.
+El cielo domina la escena con una paleta de colores en tonos rosa, magenta y púrpura, destacando una luna enorme y brillante. Nubes voluminosas rodean la luna, creando una atmósfera onírica. En la parte inferior, se observa una playa de arena clara y un mar tranquilo que refleja los colores intensos del cielo nocturno. La escena transmite una sensación de tranquilidad mágica y misteriosa.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Tercera Imagen
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        Esta imagen muestra un impresionante paisaje alpino bajo un cielo azul intenso con nubes blancas y voluminosas. En primer plano, se extiende una pradera de un verde vibrante salpicada de árboles coníferos. Al fondo, se puede apreciar un lago de color turquesa rodeado de montañas cubiertas de vegetación, con cumbres nevadas apenas visibles en la distancia. La escena transmite una sensación de paz y belleza natural, característica de las regiones montañosas, posiblemente los Alpes. La combinación del verde intenso del pasto, el azul del agua y el cielo, y las montañas crea una composición visualmente impactante y serena.
+
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </div>
+        <!-- Fin Acordeon -->
+
+   
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
